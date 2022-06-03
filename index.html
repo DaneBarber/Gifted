@@ -21,15 +21,14 @@
         <div class="col-3 searchSide">
           <div class="container text-light">
             <h1><b>Gifted</b></h1>
-            <div>
+            <div class="col-12 text-center">
               <label for="tag">Tag</label>
               <input type="text" name="tag" id="tag">
-              <label for="url">URL</label>
+              <label class="my-4" for="url">URL</label>
               <input type="url" name="url" id="url">
               <hr>
               <form action="" method="get" onsubmit="app.giftsController.changeQ()">
                 <div class="input-group mb-3">
-                  <label for="gifsearch">Search for Gifs:</label>
                   <!--<input type="input" name="gif-search" id="gif-search" value="">
                 <button type="submit" value="submit">Search</button> -->
                   <input type="text" class="form-control" placeholder="Gif search" aria-label="Gif search"

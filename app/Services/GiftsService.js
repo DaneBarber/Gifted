@@ -34,7 +34,6 @@ class GiftsService {
     console.log(params)
     console.log(input)
     params[2] = input;
-    console.log(params)
   }
 
 }
